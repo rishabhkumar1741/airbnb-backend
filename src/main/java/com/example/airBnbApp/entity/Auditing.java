@@ -10,7 +10,6 @@ import java.time.LocalDateTime;
 
 @Getter
 @Setter
-@Entity
 public class Auditing {
     @CreationTimestamp
     @Column(updatable = false)
